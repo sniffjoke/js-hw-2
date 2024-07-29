@@ -154,3 +154,15 @@
 //
 // console.log(filterGreaterThan(arrOne, 25))
 // console.log(filterGreaterThan(arrTwo, 20))
+
+// let people = [
+//     { name: 'John', age: 30 },
+//     { name: 'Alice', age: 25 },
+//     { name: 'Bob', age: 35 },
+// ];
+//
+// function sortAlphabeticallyByProperty (arr, x) {
+//     return arr.sort((a, b) => a[x].localeCompare(b[x]));
+// }
+//
+// console.log(sortAlphabeticallyByProperty(people, 'name'))
