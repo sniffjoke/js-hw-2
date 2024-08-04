@@ -166,3 +166,35 @@
 // }
 //
 // console.log(sortAlphabeticallyByProperty(people, 'name'))
+
+// let numbers = [5, 2, 8, 1, 4];
+// const sortDescending = (arr) => {
+//     return arr.sort((a, b) => b - a);
+// }
+// console.log(sortDescending(numbers))
+
+// let data = [
+//     { value: 1, name: 'Option 1' },
+//     { value: 2, name: 'Option 2' },
+//     { value: 3, name: 'Option 3' },
+// ]
+//
+// const formattedData = data.map((item, i) => {
+//     return item[i] = {value: item.value, label: item.name}
+// })
+//
+// console.log(formattedData)
+
+// let products = [
+//     { id: 1, name: 'Apple', price: 1.99 },
+//     { id: 2, name: 'Banana', price: 0.99 },
+//     { id: 3, name: 'Orange', price: 2.49 },
+// ];
+//
+// const productsWithDiscount = products.map((item, i) => {
+//     return item[i] = {...item, discountPrice: item.price * 0.9}
+// })
+//
+// console.log(productsWithDiscount)
+
+
