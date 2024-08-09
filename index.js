@@ -197,4 +197,15 @@
 //
 // console.log(productsWithDiscount)
 
+// const word = 'level'
+//
+// console.log(word.split('').reverse().join(''))
 
+// const isPalindrome = (word) => {
+//     let returnWord = word.split('').reverse().join('')
+//     return returnWord === word
+// }
+//
+// console.log(isPalindrome('level'))
+// console.log(isPalindrome('racecar'))
+// console.log(isPalindrome('hello'))
