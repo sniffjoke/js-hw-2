@@ -209,3 +209,23 @@
 // console.log(isPalindrome('level'))
 // console.log(isPalindrome('racecar'))
 // console.log(isPalindrome('hello'))
+
+// let arr = [1, 1, 5, 6, 7, 8, 9, 9, 3, 4, 0, 19];
+
+// const removeDuplicates = arr => {
+//     return arr.filter((item, index, array) => array.indexOf(item) !== index)
+// }
+
+// console.log(removeDuplicates(arr))
+
+const persons = [
+    { name: 'Alice', age: 30 },
+    { name: 'Bob', age: 25 },
+    { name: 'Charlie', age: 35 },
+]
+
+const sortByProperty = (arr, property) => {
+    return arr.sort((a, b) => a[property] - b[property])
+}
+
+console.log(sortByProperty(persons))
